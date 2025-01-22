@@ -4,3 +4,4 @@ python-dotenv
 pyPDF2
 chromadb
 langchain
+gunicorn
