@@ -78,6 +78,10 @@ The application handles errors gracefully:
 - Requires a valid Google API key.
 - Limited to `.jpg`, `.jpeg`, and `.png` file formats.
 
+## Live Demo
+This application is deployed on Render. You can access it here:
+[Multi-Language Invoice Extractor](https://invoice-extractor-2wwl.onrender.com)
+
 ## Dependencies
 - `streamlit`
 - `python-dotenv`
