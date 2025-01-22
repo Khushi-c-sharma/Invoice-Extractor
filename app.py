@@ -45,7 +45,7 @@ uploaded_file = st.file_uploader("Choose an image/invoice...", type=["jpg", "jpe
 image=""
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded successfully!!", use_column_width=True) # Display the image
+    st.image(image, caption="Uploaded successfully!!", use_container_width=True) # Display the image
 
 submit = st.button("Describe the invoice")
 
